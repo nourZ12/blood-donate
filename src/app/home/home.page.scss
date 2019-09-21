@@ -1,1 +1,39 @@
 
+
+:host {
+    display: block;
+    background-image: url(../../assets/mainpage.jpg);
+    background-color: #cb2d3e!important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .background {
+        --ion-background-image: url(../../assets/mainpage.jpg);
+    }
+    ion-content{
+        --background: url('../../assets/mainpage.jpg')  no-repeat center center / cover;
+
+    }
+ 
+
+    .h1-life-saver {
+        margin-top: 40px;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    }
+
+    /*
+    .background {
+        display: block;
+        background-color: #cb2d3e!important;  /* fallback for old browsers */
+     /*   background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+      /*  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /*
+    }
+    ion-content{
+
+        --ion-background-color: #cb2d3e!important;  /* fallback for old browsers */
+     /*   --ion-background-color: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+      /*  --ion-background-color: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
